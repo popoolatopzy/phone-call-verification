@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2afcb5dd8d6e841e0e9575348c144852",
+    "content-hash": "072960b93aba525e63fc95390a3e1c0e",
     "packages": [
         {
             "name": "cakephp/cakephp",
@@ -2193,16 +2193,16 @@
         },
         {
             "name": "twilio/sdk",
-            "version": "7.14.0",
+            "version": "8.2.3",
             "source": {
                 "type": "git",
-                "url": "git@github.com:twilio/twilio-php.git",
-                "reference": "823f2630c14a67e904e1bf63f9b0d7053812d751"
+                "url": "https://github.com/twilio/twilio-php.git",
+                "reference": "9b0297df39cadcae857387e86d0e062887d59c15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twilio/twilio-php/zipball/823f2630c14a67e904e1bf63f9b0d7053812d751",
-                "reference": "823f2630c14a67e904e1bf63f9b0d7053812d751",
+                "url": "https://api.github.com/repos/twilio/twilio-php/zipball/9b0297df39cadcae857387e86d0e062887d59c15",
+                "reference": "9b0297df39cadcae857387e86d0e062887d59c15",
                 "shasum": ""
             },
             "require": {
@@ -2238,7 +2238,11 @@
                 "sms",
                 "twilio"
             ],
-            "time": "2024-01-25T11:51:56+00:00"
+            "support": {
+                "issues": "https://github.com/twilio/twilio-php/issues",
+                "source": "https://github.com/twilio/twilio-php/tree/8.2.3"
+            },
+            "time": "2024-08-26T11:24:31+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
